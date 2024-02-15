@@ -11,10 +11,6 @@ button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-}
-
 h3 {
   font-weight: 500;
   font-size: 20px;
@@ -35,7 +31,7 @@ h2 {
 
 /* =========Body========= */
 body {
-  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
 }
@@ -70,8 +66,12 @@ body {
 }
 
 /* Adress header */
-.contact-link {
+
+.contact {
   font-style: normal;
+}
+
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -91,13 +91,14 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .main-button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -116,12 +117,17 @@ body {
 .benefits-list-item-description {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ===Our team styles=== */
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-section-list {
+  background-color: #ffffff;
 }
 .worker-name {
   text-align: center;
@@ -130,6 +136,8 @@ body {
 .worker-position {
   text-align: center;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ===Portfolio styles=== */
@@ -137,6 +145,7 @@ body {
 .portfolio-item-subsrcibe {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* =====Footer===== */
@@ -148,6 +157,7 @@ body {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .text-studio-footer {
